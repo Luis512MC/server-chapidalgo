@@ -1,0 +1,40 @@
+[01:09:14] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.3+9-2-24.04.2-Ubuntu; Ubuntu null) on Linux 6.8.0-1052-azure (amd64)
+[01:09:14] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) for Minecraft 26.1.2
+[01:09:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:09:15] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/Thunder.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/Thunder.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:74) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:58) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:104) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at net.minecraft.server.Main.main(Main.java:107) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/Thunder.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	... 10 more
+[01:09:15] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/GeyserConnect.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/GeyserConnect.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:74) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:58) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:104) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at net.minecraft.server.Main.main(Main.java:107) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/GeyserConnect.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	... 10 more
+[01:09:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[01:09:15] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - AxGraves (1.28.0), Geyser-Spigot (2.10.0-SNAPSHOT), SkinsRestorer (15.12.0), ViaVersion (5.9.1), floodgate (2.2.5-SNAPSHOT (b132-5a72b6a))
+[01:09:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:09:24] [ServerMain/WARN]: [WorldFolderMigration] ===================== ! ALERT ! =====================
+[01:09:24] [ServerMain/WARN]: [WorldFolderMigration] World storage migration is required during startup.
+[01:09:24] [ServerMain/WARN]: [WorldFolderMigration] If you do not have a backup: interrupt the server now. Use Ctrl+C, your panel kill function, etc.
+[01:09:24] [ServerMain/WARN]: [WorldFolderMigration] =====================================================
+[01:09:24] [ServerMain/WARN]: [WorldFolderMigration] Continuing in 30 seconds...
